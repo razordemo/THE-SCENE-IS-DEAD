@@ -1,0 +1,38 @@
+uniform sampler2D texture;
+uniform int screen_w;
+uniform int screen_h;
+uniform float time;
+uniform float number;
+uniform float alpha;
+uniform float speed;
+uniform float limit;
+
+const float PI=3.14159265358979323846;
+
+float r,g,b,a;
+float angle,sinus;
+vec4 color;
+
+void main(void)
+	{
+	vec2 p=gl_TexCoord[0].xy;
+	vec4 source=texture2D(texture,p);
+	if(p.y>limit||(source.x!=1.0&&source.y!=1.0&&source.z!=1.0))
+		{
+		color=source;
+		}
+	else
+		{
+		sinus=0.5*sin(time);
+		a=(0.875*mod(p.y*number-time*speed,1.0)+0.25);
+		r=0.5+0.375*cos(p.y*float(screen_h/64)-time+sinus);
+		g=0.5;
+		b=0.5+0.375*sin(p.y*float(screen_h/64)-time);
+		vec3 c=vec3(r,g,b)*a;
+		c.x=float(int(c.x*8.0)*32)/256.0;
+		c.y=float(int(c.y*8.0)*32)/256.0;
+		c.z=float(int(c.z*8.0)*32)/256.0;
+		color=vec4(c*alpha,1.0);
+		}
+	gl_FragColor=color;
+	}
