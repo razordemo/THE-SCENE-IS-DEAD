@@ -1,0 +1,150 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ICON_32                 ICON    DISCARDABLE     "resource\\icon.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040c04b0"
+        BEGIN
+            VALUE "Comments", "Pirates of the 777 seas\0"
+            VALUE "CompanyName", "Razor 1911\0"
+            VALUE "FileDescription", "The Scene Is Dead\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "rzr-intro10\0"
+            VALUE "LegalCopyright", "Copyright © 2012 - Razor 1911\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "rzr-the_scene_is_dead.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Razor 1911 - The Scene Is Dead\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SHADER
+//
+
+IDR_PS_BLUR_H           SHADER  DISCARDABLE     "resource\\ps_blur_h.ps"
+IDR_PS_BLUR_V           SHADER  DISCARDABLE     "resource\\ps_blur_v.ps"
+IDR_PS_POSTFX           SHADER  DISCARDABLE     "resource\\ps_postfx.ps"
+IDR_PS_SIMPLE           SHADER  DISCARDABLE     "resource\\ps_simple.ps"
+IDR_VS_SIMPLE           SHADER  DISCARDABLE     "resource\\vs_simple.vs"
+IDR_PS_GLOW             SHADER  DISCARDABLE     "resource\\ps_glow.ps"
+IDR_PS_COPPER           SHADER  DISCARDABLE     "resource\\ps_copper.ps"
+IDR_PS_WAVE             SHADER  DISCARDABLE     "resource\\ps_wave.ps"
+IDR_PS_RENDER           SHADER  DISCARDABLE     "resource\\ps_render.ps"
+IDR_PS_CLOUD            SHADER  DISCARDABLE     "resource\\ps_cloud.ps"
+IDR_PS_TUNNEL           SHADER  DISCARDABLE     "resource\\ps_tunnel.ps"
+IDR_PS_LAND             SHADER  DISCARDABLE     "resource\\ps_land.ps"
+IDR_PS_RADIAL           SHADER  DISCARDABLE     "resource\\ps_radial.ps"
+IDR_PS_TITLE            SHADER  DISCARDABLE     "resource\\ps_title.ps"
+IDR_PS_SPHERE           SHADER  DISCARDABLE     "resource\\ps_sphere.ps"
+IDR_PS_DARK             SHADER  DISCARDABLE     "resource\\ps_dark.ps"
+IDR_PS_DISC             SHADER  DISCARDABLE     "resource\\ps_disc.ps"
+IDR_PS_TOWER            SHADER  DISCARDABLE     "resource\\ps_tower.ps"
+IDR_PS_TUBE             SHADER  DISCARDABLE     "resource\\ps_tube.ps"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MAP                 BITMAP  DISCARDABLE     "resource\\map.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
